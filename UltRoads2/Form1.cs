@@ -153,7 +153,6 @@ namespace UltRoads2
 
         private void getJSON()
         {
-            // Your previous code, but with the save path updated to use selectedFolderPath
             var client = new RestClient("https://overpass-api.de/api/interpreter");
             var request = new RestRequest();
             request.Method = Method.Post;
@@ -237,8 +236,6 @@ namespace UltRoads2
 
 
         // GEOJSON part
-
-
         private void mainGEO()
         {
             string inputFilePath = Path.Combine(selectedFolderPath, "roads_catalonia.json"); // Input from selected path
