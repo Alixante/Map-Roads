@@ -116,7 +116,7 @@
             // lblDownloadProgress
             // 
             this.lblDownloadProgress.AutoSize = true;
-            this.lblDownloadProgress.Location = new System.Drawing.Point(762, 494);
+            this.lblDownloadProgress.Location = new System.Drawing.Point(12, 524);
             this.lblDownloadProgress.Name = "lblDownloadProgress";
             this.lblDownloadProgress.Size = new System.Drawing.Size(57, 13);
             this.lblDownloadProgress.TabIndex = 4;
